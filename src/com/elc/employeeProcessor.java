@@ -6,7 +6,7 @@ public class employeeProcessor {
 
 	public static void main(String[] args) {
 		Employeee e1=new Employeee(202,"charan","Developer",5000,4);
-		 System.out.println("before promotion");
+		 System.out.println("before promotion:");
 		System.out.println("id:"+e1.getempid());
 		System.out.println("name:"+e1.getName());
 		System.out.println("designation:"+e1.getDesignation());
